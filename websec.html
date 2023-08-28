@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pseudo-class Selector Practice</title>
+<style>
+
+
+
+
+
+nav ul li a:link {
+ color: rgb(192, 255, 219);
+}
+.links a:visited {
+  font-style: italic;
+}
+
+nav ul li a:hover {
+  color: red;
+}
+
+h2:hover{
+  background-color: aquamarine;
+}
+h2 :active{
+text-decoration-line:underline;
+}
+nav ul li a:active {
+  background-color: yellow;
+}
+.links a:last-child {
+  color: rgb(128, 0, 55);
+}
+
+
+nav ul li:nth-child(odd) {
+  background-color: rgb(230, 173, 221);
+}
+
+
+.paragraphs p:nth-child(3) {
+  color: rgb(145, 255, 0);
+}
+
+
+input:focus {
+  border: 2px solid rgb(0, 79, 128);
+}
+section p::first-letter{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: crimson;
+  font-size: larger;
+  
+}
+header h1::first-line{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+main h2::before{
+  content:"hello.";
+ background-color: blue;
+}
+nav ul li::after{
+  content: "*";
+}
+div p{
+  color: aqua;
+}
+nav a::before{
+  content: "$";
+}
+footer p::after{
+  content: "hello";
+  background-color: chocolate;
+}
+nav ul li::marker{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+
+
+
+
+   
+</style>
+</head>
+<body>
+<header>
+<h1>Welcome to the Pseudo-class Selector Practice</h1>
+</header>
+<nav>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Services</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</nav>
+<main>
+<section>
+<h2>About Us</h2>
+<p>We are a web development company...</p>
+2
+</section>
+<section>
+<h2>Our Services</h2>
+<ul>
+<li>Web Design</li>
+<li>Front-end Development</li>
+<li>Back-end Development</li>
+</ul>
+</section>
+</main>
+<div id="additional-info">
+<div class="paragraphs">
+<p>Paragraph 1</p>
+<p>Paragraph 2</p>
+<p>Paragraph 3</p>
+</div>
+<div class="links">
+<a href="#">Link 1</a>
+<a href="#">Link 2</a>
+</div>
+</div>
+<footer>
+<p>&copy; 2023 Pseudo-class Selector Practice</p>
+</footer></body></html>

@@ -1,0 +1,41 @@
+ span{
+    display: inline-block;
+}
+
+div img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding-top: 20px;
+}
+body{
+    padding-left: 250px;
+   
+}
+h2{
+    line-height: 1px;
+}
+.up{
+    border-top:2px solid black ;
+    width: 600px;
+}
+.up div:nth-of-type(2) span:nth-of-type(3) {
+    margin-top: 50px;
+  }
+  h3{
+    display: inline-block;
+  }
+  div table tr td .italy{
+    padding-top: 200px;
+  }
+  .down{
+    padding-top: 10px;
+  }
+  img {
+    width: 10px;
+    height: 10px;
+  }
+  h5{
+    background-color: black;
+    border-radius: 50%;
+  }

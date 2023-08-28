@@ -1,0 +1,28 @@
+nav ul{
+    background-color: aqua;
+}
+.ravali {
+    color:purple;
+}
+.paragraphs{
+    border:2px solid  brown;
+}
+.links a{
+    font-weight: bolder;
+}
+.paragraphs p:nth-child(3){
+    font-size: 100px;
+}
+nav li{
+    margin-bottom: 10px;
+}
+.links a:nth-child(1)
+{
+    color:brown;
+}
+section{
+    padding: 20px;
+}
+footer p{
+    border: 5px solid purple;
+}
